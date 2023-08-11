@@ -5,9 +5,10 @@
 
 * ResNet is used as the image encoder instead of swin transformer
 
-```
+```python
 #linear map
-        self.mask2rgb = nn.Sequential(
+#linear map
+self.mask2rgb = nn.Sequential(
             nn.Conv2d(self.num_classes, 32, 1),
             nn.ReLU(),
             nn.Conv2d(32, 32, 1),
@@ -15,8 +16,8 @@
             nn.Conv2d(32, 3, 1)
         )
 
-        #non linear map
-        self.rgb2mask = nn.Sequential(
+#non linear map
+self.rgb2mask = nn.Sequential(
             nn.Conv2d(3, 32, 1),
             nn.ReLU(),
             nn.Conv2d(32, 32, 1),
