@@ -1,9 +1,9 @@
 ## Generative-Semantic-Segmentation-Simplified
 
 ### Core idea
-
-<img src="figures/framework.png" width="650" height="300">
-
+<p align="center">
+            <img src="figures/framework.png" width="650" height="300">
+</p>
 ### Train
 ```
 python train.py --source_dir <path of source dataset> --target_dir <path of target dataset>
