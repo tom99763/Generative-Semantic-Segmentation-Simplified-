@@ -2,7 +2,7 @@
 
 ### Train
 ```
-python train.py --source_dir 'path of source dataset' --target_dir 'path of target dataset'
+python train.py --source_dir <path of source dataset> --target_dir <path of target dataset>
 ```
 
 ### Differ to original paper 
