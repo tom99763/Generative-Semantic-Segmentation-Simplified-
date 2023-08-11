@@ -2,7 +2,7 @@
 
 ### Core idea
 <p align="center">
-            <img src="figures/framework.png" width="650" height="300">
+            <img src="figures/framework.png" width="600" height="300">
 </p>
 ### Train
 ```
