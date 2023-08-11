@@ -1,11 +1,5 @@
 ## Generative-Semantic-Segmentation-Simplified
 
-## Core idea
-
-![image](https://github.com/tom99763/Generative-Semantic-Segmentation-Simplified-/assets/69715105/30fba313-4d3e-4fb2-911d-77d89373f32b)
-
-
-
 ### Train
 ```
 python train.py --source_dir <path of source dataset> --target_dir <path of target dataset>
