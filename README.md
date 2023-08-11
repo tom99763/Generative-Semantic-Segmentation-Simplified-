@@ -7,7 +7,6 @@
 
 ```python
 #linear map
-#linear map
 self.mask2rgb = nn.Sequential(
             nn.Conv2d(self.num_classes, 32, 1),
             nn.ReLU(),
