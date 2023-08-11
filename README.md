@@ -1,5 +1,12 @@
 ## Generative-Semantic-Segmentation-Simplified
 
+### Core idea
+
+![teaser](Generative-Semantic-Segmentation-Simplified-/figures/framework.png)
+<p float="left">
+  <img src="Generative-Semantic-Segmentation-Simplified-/figures/framework.png" height="190" />
+</p>
+
 ### Train
 ```
 python train.py --source_dir <path of source dataset> --target_dir <path of target dataset>
