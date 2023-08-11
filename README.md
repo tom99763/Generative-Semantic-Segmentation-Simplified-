@@ -2,7 +2,7 @@
 
 ### Core idea
 
-![teaser](figures/framework.png)
+![teaser](figures/framework.png=250x250)
 
 ### Train
 ```
