@@ -5,6 +5,20 @@
             <img src="figures/framework.png" width="600" height="300">
 </p>
 
+### Pretrained VQVAE
+
+1. Encoder: https://cdn.openai.com/dall-e/encoder.pkl
+
+```
+checkpoints/encoder.pkl
+```
+
+2. Decoder: https://cdn.openai.com/dall-e/decoder.pkl
+
+```
+checkpoints/decoder.pkl
+```
+
 ### Train
 ```
 python train.py --source_dir <path of source dataset> --target_dir <path of target dataset>
