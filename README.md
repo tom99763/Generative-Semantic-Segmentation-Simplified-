@@ -2,10 +2,7 @@
 
 ### Core idea
 
-![teaser](Generative-Semantic-Segmentation-Simplified-/figures/framework.png)
-<p float="left">
-  <img src="Generative-Semantic-Segmentation-Simplified-/figures/framework.png" height="190" />
-</p>
+![teaser](figures/framework.png)
 
 ### Train
 ```
