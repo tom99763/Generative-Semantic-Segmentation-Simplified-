@@ -1,7 +1,12 @@
 ## Generative-Semantic-Segmentation-Simplified
 
-### Changes
-* The two small CNNs (non-linear) are utilized in the posterior learning stage to map the mask into rgb color space and map back to categorical space.
+### Train
+```
+python train.py --source_dir 'path of source dataset' --target_dir 'path of target dataset'
+```
+
+### Differ to original paper 
+* TT: The two small CNNs (non-linear) are utilized in the posterior learning stage to map the mask into rgb color space and map back to categorical space.
 
 * ResNet is used as the image encoder instead of swin transformer
 
