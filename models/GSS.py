@@ -36,8 +36,6 @@ class Trainer(nn.Module):
         if opt.mode == 'train_posterior':
             for param in self.I.parameters():
                 param.requires_grad = False
-            for param in self.M.parameters():
-                param.requires_grad = True
 
     def train_posterior(self, x_s, x_t, y_s, y_t, i_iter):
         adjust_learning_rate(self.opt_M, self.config['optim']['M_params']['lr'], i_iter, self.opt.num_iters)
